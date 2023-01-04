@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jan 04 08:55:37 GMT 2023","Wed Jan 04 08:55:41 GMT 2023","3720","","SC1: Validate Retirement Calculator Page","","SC1: Validate Retirement Calculator Page","TC2: Verify default caluclutor vaules","TC2: Verify default caluclutor vaules",""
+"passed","Thu Dec 29 03:53:55 GMT 2022","Thu Dec 29 03:54:23 GMT 2022","27161","","SC1: Validate Retirement Calculator","","SC1: Validate Retirement Calculator","TC2:","TC2:",""
+"passed","Wed Jan 04 08:55:30 GMT 2023","Wed Jan 04 08:55:37 GMT 2023","6531","","SC1: Validate Retirement Calculator Page","","SC1: Validate Retirement Calculator Page","TC1: Verify retirement calculator by poviding inputs","TC1: Verify retirement calculator by poviding inputs",""
+"skipped","Thu Dec 29 03:21:05 GMT 2022","Thu Dec 29 03:21:05 GMT 2022","7","","SC1: Validate Retirement Calculator","","SC1: Validate Retirement Calculator","TC1:Verify retirement calculator by poviding inputs","TC1:Verify retirement calculator by poviding inputs",""

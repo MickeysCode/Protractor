@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672821056537' stop='1672821099435'>
+    <name>SC1: Validate Retirement Calculator Page</name>
+    <title>SC1: Validate Retirement Calculator Page</title>
+    <test-cases>
+        <test-case start='1672821056537' status='passed' stop='1672821063730'>
+            <name>TC1: Verify retirement calculator by poviding inputs</name>
+            <title>TC1: Verify retirement calculator by poviding inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672821063730' status='failed' stop='1672821099435'>
+            <name>TC2: Verify default caluclutor vaules</name>
+            <title>TC2: Verify default caluclutor vaules</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>NoSuchElementError: No element found using locator: By(css selector, *[id="label\[for\=\'include-inflation\'\]"])</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, *[id="label\[for\=\'include-inflation\'\]"])
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\protractor\built\element.js:831:22)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaSpecFiles\retirementcalcispec.ts:41:37
+                    at ManagedPromise.invokeCallback_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

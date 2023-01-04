@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672282489896' stop='1672282494383'>
+    <name>SC1: Validate Retirement Calculator</name>
+    <title>SC1: Validate Retirement Calculator</title>
+    <test-cases>
+        <test-case start='1672282489897' status='failed' stop='1672282494381'>
+            <name>TC1:Verify retirement calculator by poviding inputs</name>
+            <title>TC1:Verify retirement calculator by poviding inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: each key must be a number of string; got undefined</message>
+                <stack-trace>TypeError: each key must be a number of string; got undefined
+                    at C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2162:21
+                    at Array.forEach (&lt;anonymous>)
+                    at C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2157:16
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                From: Task: WebElement.sendKeys()
+                    at Driver.schedule (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at WebElement.schedule_ (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2010:25)
+                    at WebElement.sendKeys (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2174:19)
+                    at actionFn (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\built\element.js:89:44)
+                    at Array.map (&lt;anonymous>)
+                    at C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\built\element.js:461:65
+                    at ManagedPromise.invokeCallback_ (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as sendKeys] (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as sendKeys] (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaSpecFiles\retirementcalcispec.ts:9:35
+                    at Generator.next (&lt;anonymous>)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaJSFiles\etqaSpecFiles\retirementcalcispec.js:8:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaJSFiles\etqaSpecFiles\retirementcalcispec.js:4:12)
+                    at UserContext.&lt;anonymous> (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaSpecFiles\retirementcalcispec.ts:8:74)
+                    at C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                From: Task: Run it("TC1:Verify retirement calculator by poviding inputs") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaSpecFiles\retirementcalcispec.ts:8:5)
+                    at addSpecsToSuite (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\nelsonj1\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaSpecFiles\retirementcalcispec.ts:4:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+                    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+                    at Module.load (node:internal/modules/cjs/loader:1037:32)
+                    at Function.Module._load (node:internal/modules/cjs/loader:878:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672282494381' status='passed' stop='1672282494383'>
+            <name>TC2:</name>
+            <title>TC2:</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

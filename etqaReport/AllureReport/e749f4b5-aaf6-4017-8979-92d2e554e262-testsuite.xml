@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672284456824' stop='1672284461549'>
+    <name>SC1: Validate Retirement Calculator</name>
+    <title>SC1: Validate Retirement Calculator</title>
+    <test-cases>
+        <test-case start='1672284456825' status='passed' stop='1672284461549'>
+            <name>TC2:</name>
+            <title>TC2:</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

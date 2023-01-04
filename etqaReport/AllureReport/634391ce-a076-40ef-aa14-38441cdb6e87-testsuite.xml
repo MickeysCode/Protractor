@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672820343878' stop='1672820384252'>
+    <name>SC1: Validate Retirement Calculator Page</name>
+    <title>SC1: Validate Retirement Calculator Page</title>
+    <test-cases>
+        <test-case start='1672820343879' status='failed' stop='1672820384251'>
+            <name>TC1: Verify retirement calculator by poviding inputs</name>
+            <title>TC1: Verify retirement calculator by poviding inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TimeoutError: Wait timed out after 35009ms</message>
+                <stack-trace>TimeoutError: Wait timed out after 35009ms
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:2201:17
+                    at ManagedPromise.invokeCallback_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                From: Task: &lt;anonymous wait>
+                    at scheduleWait (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+                    at ControlFlow.wait (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+                    at Driver.wait (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+                    at run (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\protractor\built\browser.js:58:33)
+                    at ProtractorBrowser.to.&lt;computed> [as wait] (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\protractor\built\browser.js:66:16)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\etqaSpecFiles\retirementcalcispec.ts:26:21
+                    at ManagedPromise.invokeCallback_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\nelsonj1\OneDrive\Automation Code\Protractor\ETQAend2endTesting\node_modules\selenium-webdriver\lib\promise.js:2927:27</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672820384251' status='pending' stop='1672820384252'>
+            <name>TC2: Verify default caluclutor vaules</name>
+            <title>TC2: Verify default caluclutor vaules</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

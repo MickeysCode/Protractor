@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672822351018' stop='1672822361325'>
+    <name>SC1: Validate Retirement Calculator Page</name>
+    <title>SC1: Validate Retirement Calculator Page</title>
+    <test-cases>
+        <test-case start='1672822351018' status='passed' stop='1672822357552'>
+            <name>TC1: Verify retirement calculator by poviding inputs</name>
+            <title>TC1: Verify retirement calculator by poviding inputs</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1672822357552' status='passed' stop='1672822361325'>
+            <name>TC2: Verify default caluclutor vaules</name>
+            <title>TC2: Verify default caluclutor vaules</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
